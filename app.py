@@ -108,7 +108,7 @@ model = load_model('keras_model.h5')
 data = np.ndarray(shape=(1, 224, 224, 3), dtype=np.float32)
 
 # Imagen decorativa
-image = Image.open('OIG5.jpg')
+image = Image.open('camara.jpg')
 st.image(image, width=350)
 
 # 🌼 --- Panel lateral ---
